@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" manifest="manifest.appcache">
+<head>
+  <meta charset="UTF-8">
+  <title>min velkomstskærm</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon-" href="icon.png"/>
+  <link rel="apple-touch-icon-precomposed" href="icon.png"/>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="web-app-manifest.ison">
+</head>
+
+<body>
+  <div id="welcome">
+<h1>Velkommen til verdens bedste huskespil</h1>
+<p>Vælg et antal brikker</p>
+<form id="playGame">
+  <input type="radio" name="numberOfTiles" id="sixteen" value="16" checked>
+  <label for="sixteen">16</label>
+  <input type="radio" name="numberOfTiles" id="twenty" value="20">
+  <label for="twenty">20</label>
+  <input type="radio" name="numberOfTiles" id="twentyfour" value="24">
+  <label for="twentyfour">24</label>
+  
+  <button type="submit">Start spillet</button>
+
+</form>
+</div>
+<div id="board">
+</div>
+<div id="message">
+  <p>Tillyke! Du Har Spildt Dit Liv På Ikke En Skid </p>
+  <button>Vil Du Fortsætte </button>
+</div>
+  
+    <script  src="js/index.js"></script>
+
+</body>
+</html>
